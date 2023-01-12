@@ -1,7 +1,0 @@
-servce URi: postgres://avnadmin:AVNS_lfLQzQU8FEfJgtvPQuB@pg-23eb62d5-abadri90-aad9.aivencloud.com:24826/defaultdb?sslmode=require
-db_name: defaultdb
-host: pg-23eb62d5-abadri90-aad9.aivencloud.com
-port: 24826
-User: avnadmin
-Pwd: AVNS_lfLQzQU8FEfJgtvPQuB
-token: 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
