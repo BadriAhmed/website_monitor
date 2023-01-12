@@ -1,0 +1,14 @@
+version: '3'
+services:
+  website_monitor:
+    build: .
+    image: website_monitor_image
+    container_name: website_monitor
+    environment:
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8080:8080"
